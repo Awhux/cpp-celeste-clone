@@ -11,6 +11,7 @@ PointerAlignment: Left
 SpaceBeforeParens: Never
 AlignAfterOpenBracket: Align
 AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveMacros: true
 AlignOperands: true
 AllowShortBlocksOnASingleLine: Always
 AllowShortEnumsOnASingleLine: true
