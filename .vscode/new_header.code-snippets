@@ -1,0 +1,16 @@
+{
+  "New Header": {
+      "prefix": "newheader",
+      "body": [
+          "#pragma once"
+          "#ifndef _${1:HEADER_NAME}_HPP",
+          "#define _${1:HEADER_NAME}_HPP",
+          "",
+          "${2:namespace} ${3:NAME} {",
+          "}",
+          "",
+          "#endif // _${1:HEADER_NAME}_HPP"
+      ],
+      "description": "Create a new C++ header file"
+  }
+}
