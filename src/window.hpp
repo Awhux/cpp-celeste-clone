@@ -13,6 +13,7 @@
 
 namespace window {
   static HWND window;
+  static int window_style = WS_OVERLAPPEDWINDOW;
 
   /**
    * Main method to create a window.
