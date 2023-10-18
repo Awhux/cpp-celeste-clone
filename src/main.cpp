@@ -15,10 +15,7 @@
 
 int main() {
   SM_TRACE("Starting Celeste...");
-  SM_ASSERT(window::create_window(800, 600, "Celeste Window"), "Failed to create window!");
-
-  SM_TRACE("Loading OpenGL functions...");
-  gl_renderer::load_gl_functions();
+  SM_ASSERT(window::create_window(400, 400, "Celeste Window"), "Failed to create window!");
 
   SM_TRACE("Starting game loop...");
   while(game::running) { window::update_window(); }
