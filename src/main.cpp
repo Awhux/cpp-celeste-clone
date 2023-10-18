@@ -3,14 +3,11 @@
 #include <iostream>
 #include <string>
 
-#define _CRT_SECURE_NO_WARNINGS 1
-
 // Local files
 #include "game.hpp"
 #include "window.hpp"
 
 // Folders in src/
-#include "renderer/gl_renderer.hpp"
 #include "utils/logger.hpp"
 
 int main() {
